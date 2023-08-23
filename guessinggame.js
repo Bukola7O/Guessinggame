@@ -24,7 +24,7 @@ function startGame() {
     if (guessedNumber === randomNumber) {
       console.log('You have won!');
     } else {
-      console.log(`You have lost! The random number generated is ${randomNumber}.`);
+      console.log(`You have lost! The correct number is ${randomNumber}.`);
     }
 
     startGame();
